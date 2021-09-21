@@ -1,51 +1,49 @@
-h3.payment-newpayment-title {
-  background: #00a3db url('/assets/img/payment-safetypay-title.png') center center no-repeat;
+#payment-group-template-PaymentGroup .payment-group-item-text {
+  background-image: url('../../img/payment-bom-pra-credito-ico.png');
+}
+h3.payment-bompracredito-title {
+  background: url(../../img/payment-bompracredito-title.png) left no-repeat;
+  background-size: contain;
+  background-position: center left;
   display: block;
-  height: 29px;
-  margin: -15px 0 15px -15px;
-  padding: 0 15px;
+  margin: 20px 0 20px 15px;
+  padding-top: 8%;
+}
+.payment-bompracredito-description-text {
+  font-size: 18px;
+  margin: 15px 0 10px 15px;
+  color: #000;
+}
+.payment-bompracredito-description-text span {
+  font-weight: 600;
+}
+.payment-bompracredito-description-text.subtitle {
+  font-size: 14px;
+  color: #000;
+  margin: 0 0 10px 15px;
+}
+.payment-bompracredito-background {
+  background: url(../../img/payment-bompracredito-background.png) center center no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  display: block;
+  margin: 35px 0 -20px -20px;
+  padding: 0 20px;
+  padding-top: 70%;
   text-indent: -999em;
   width: 100%;
 }
-.payment-newpayment-description-banks {
-  background: url('/assets/img/payment-safetypay-banks.png') 0 0 no-repeat;
-  height: 40px;
-  margin: 15px 0 30px;
-  text-indent: -999em;
-}
-.payment-newpayment-benefit {
-  background: #fff;
-  padding: 10px;
-  padding-bottom: 0;
-  text-align: center;
-}
-.payment-newpayment-benefit-title {
-  background: url('/assets/img/payment-safetypay-icons.png') top center no-repeat;
-  font-size: 16px;
-  padding-top: 85px;
-  text-transform: uppercase;
-}
-.payment-newpayment-benefit-fast .payment-newpayment-benefit-title {
-  background-position: center -150px;
-}
-.payment-newpayment-benefit-safe .payment-newpayment-benefit-title {
-  background-position: center -300px;
-}
-.payment-newpayment-benefit-description {
-  line-height: 1.4;
-}
-.payment-newpayment-help {
-  margin-top: 20px;
-  text-align: center;
-}
-@media (max-width: 490px) {
-  .payment-newpayment-benefit-title {
-    background: none;
-    padding-top: 0;
+@media (max-width: 979px) {
+  .payment-bompracredito-description-text {
+    font-size: 16px;
+  }
+  .payment-bompracredito-description-text.subtitle {
+    font-size: 12px;
   }
 }
-@media (max-width: 979px) {
-  .payment-newpayment-benefit {
-    overflow: hidden;
+@media (max-width: 490px) {
+  .payment-bompracredito-background {
+    padding-top: 75%;
+    margin: 35px 0 -35px -20px;
   }
 }
