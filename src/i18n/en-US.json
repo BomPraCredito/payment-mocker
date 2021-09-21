@@ -1,5 +1,5 @@
 {
-    "paymentData.paymentGroup.title": "Debit",
+    "paymentData.paymentGroup.title": "Crediário Digital",
     "paymentData.paymentGroup.debitoBancario.title": "Debit",
     "paymentData.paymentGroup.debitoBancario.redirectInstructions": "Upon completion of the purchase, you will be redirected to your bank for payment via debit. After that, your purchase will be confirmed.",
     "paymentData.paymentGroup.debitoBancario.guaranteed": "Guaranteed",
