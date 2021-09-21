@@ -1,3 +1,6 @@
+#payment-group-template-PaymentGroup .payment-group-item-text {
+  background-image: url('../../img/payment-bom-pra-credito-ico.png');
+}
 h3.payment-newpayment-title {
   background: #00a3db url('../../img/payment-safetypay-title.png') center center no-repeat;
   display: block;
